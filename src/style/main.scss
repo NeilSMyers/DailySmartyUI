@@ -1,7 +1,9 @@
 $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
+$color-blue-one: #0079ff;
 
 @import './searchBar';
+@import './recentPosts';
 
 .post-topic {
   margin: 0 4px;
@@ -30,4 +32,10 @@ body {
 {
   display: grid;
   justify-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

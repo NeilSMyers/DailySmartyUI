@@ -5,12 +5,9 @@ $color-blue-one: #0079ff;
 @import './mixins';
 @import './searchBar';
 @import './recentPosts';
+@import './post';
 @import './home';
 @import './results';
-
-.post-topic {
-  margin: 0 4px;
-}
 
 body {
   font-family: "Lato" sans-serif;
